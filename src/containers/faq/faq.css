@@ -1,0 +1,98 @@
+.nft__faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nft__faq-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 46px;
+}
+
+.nft__faq-heading h4 {
+    color: #FF4262;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.nft__faq-heading p {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.nft__faq-content {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.nft__faq-content__frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 24px;
+    width: 684px;
+    height: 32px;
+    margin-bottom: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(#1e1e1e, #1e1e1e) padding-box, linear-gradient(to left, #FF4060 0%, #FF81C5 52.08%, #6D5EEA 100%) border-box;
+    border-radius: 10px;
+}
+
+.nft__faq-content__frame p {
+    display: flex;
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .nft__faq {
+        width: 100%;
+    }
+    .nft__faq-heading h4 {
+        font-size: 25px;
+        line-height: 100%;
+    }
+    
+    .nft__faq-heading p {
+        font-size: 30px;
+        line-height: 100%;
+    }
+    .nft__faq-content__frame {
+        width: 550px;
+        height: 25px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .nft__faq-heading h4 {
+        font-size: 27px;
+        line-height: 120%;
+        width: 20%;
+    }
+    .nft__faq-heading p {
+        font-size: 25px;
+        line-height: 100%;
+        width: 100%;
+    }
+    .nft__faq-content__frame {
+        width: 100%;
+        height: 25px;
+    }
+  }
